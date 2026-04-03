@@ -23,6 +23,7 @@ def main():
         player.draw(screen)
 
         pygame.display.flip()
+        player.update(dt)
         dt = timeClock.tick(60) / 1000
 
 
